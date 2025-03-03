@@ -1,0 +1,28 @@
+.myphoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    background: #131219; /* Inner content background */
+}
+
+.myphoto::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    background: conic-gradient(#ffffff, #042aff, #ffffff);
+    z-index: -1; /* Place behind the main content */
+    mask: radial-gradient(farthest-side, transparent 98%, black 100%);
+    -webkit-mask: radial-gradient(farthest-side, transparent 98%, black 100%);
+    animation: rotate-border 1.6s linear infinite;
+}
+
+@keyframes rotate-border {
+    to {
+        transform: rotate(360deg);
+    }
+}
