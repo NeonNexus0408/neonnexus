@@ -22,7 +22,7 @@ export default function Footer() {
               <Mail className="h-5 w-5" />
               <span className="sr-only">Email</span>
             </Link>
-            <Link href="https://t.me/bohdanzakharov" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+            <Link href="https://t.me/speeddev62" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
               <MessageCircle className="h-5 w-5" />
               <span className="sr-only">Telegram</span>
             </Link>

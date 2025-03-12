@@ -70,8 +70,8 @@ export default function Contact() {
     {
       name: "Telegram",
       icon: <MessageCircle className="h-5 w-5" />,
-      link: "https://t.me/bohdanzakharov",
-      handle: "@bohdanzakharov",
+      link: "https://t.me/speeddev62",
+      handle: "@speeddev62",
       color: "bg-sky-500/20 text-sky-400 hover:bg-sky-500/30 hover:text-sky-300",
     },
     {
