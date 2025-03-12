@@ -62,13 +62,13 @@ export default function ProjectCard({ title, description, image, tags, demoLink,
             >
               <ExternalLink className="h-3.5 w-3.5" /> Demo
             </Link>
-            <Link
+            {/* <Link
               href={githubLink}
               target="_blank"
               className="flex items-center gap-1 px-3 py-1.5 bg-black/50 border border-white/20 text-white text-sm rounded-md hover:bg-black/70 transition-colors"
             >
               <Github className="h-3.5 w-3.5" /> Code
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
