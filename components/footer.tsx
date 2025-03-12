@@ -14,19 +14,15 @@ export default function Footer() {
           </div>
 
           <div className="flex space-x-6 mb-4 md:mb-0">
-            <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+            <Link href="https://github.com/neonnexus0408" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub</span>
             </Link>
-            <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
-              <Linkedin className="h-5 w-5" />
-              <span className="sr-only">LinkedIn</span>
-            </Link>
-            <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+            <Link href="mailto:speeddev62@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
               <Mail className="h-5 w-5" />
               <span className="sr-only">Email</span>
             </Link>
-            <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+            <Link href="https://t.me/bohdanzakharov" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
               <MessageCircle className="h-5 w-5" />
               <span className="sr-only">Telegram</span>
             </Link>

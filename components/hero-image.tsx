@@ -38,6 +38,7 @@ export default function HeroImage() {
           rotate: 360,
           transition: { duration: 20, repeat: Number.POSITIVE_INFINITY, ease: "linear" },
         }}
+        
         className="absolute inset-0 w-full h-full"
       >
         {[0, 45, 90, 135, 180, 225, 270, 315].map((degree, i) => (
