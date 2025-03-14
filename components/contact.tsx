@@ -74,13 +74,6 @@ export default function Contact() {
       handle: "@speeddev62",
       color: "bg-sky-500/20 text-sky-400 hover:bg-sky-500/30 hover:text-sky-300",
     },
-    {
-      name: "WhatsApp",
-      icon: <Phone className="h-5 w-5" />,
-      link: "+380 (95) 152-8913",
-      handle: "+380 (95) 152-8913",
-      color: "bg-green-500/20 text-green-400 hover:bg-green-500/30 hover:text-green-300",
-    },
   ]
 
   return (
