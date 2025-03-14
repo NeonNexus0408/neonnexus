@@ -46,7 +46,7 @@ export default function AboutImage() {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="absolute -bottom-5 -right-5 bg-blue-900/80 glass-effect px-4 py-2 rounded-lg border border-blue-500/40 z-20"
       >
-        <span className="text-blue-300 font-bold">10+ Years Experience</span>
+        <span className="text-blue-300 font-bold">7+ Years Experience</span>
       </motion.div>
     </motion.div>
   )

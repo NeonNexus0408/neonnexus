@@ -18,7 +18,7 @@ export default function About() {
   }
 
   const highlights = [
-    "10+ years of professional development experience",
+    "7+ years of professional development experience",
     "Expertise in modern JavaScript frameworks",
     "Strong backend architecture skills",
     "DevOps and cloud infrastructure knowledge",

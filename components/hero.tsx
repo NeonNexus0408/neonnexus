@@ -36,7 +36,7 @@ export default function Hero() {
             className="mb-4"
           >
             <span className="px-4 py-1.5 rounded-full text-sm font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20 inline-block">
-              10+ Years of Experience
+              7+ Years of Experience
             </span>
           </motion.div>
 

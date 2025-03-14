@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "Senior Full Stack Developer Portfolio",
-  description: "Portfolio of a senior full stack developer with 10+ years of experience",
+  description: "Portfolio of a senior full stack developer with 7+ years of experience",
     generator: 'v0.dev'
 }
 
