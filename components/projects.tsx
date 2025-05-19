@@ -73,13 +73,13 @@ export default function Projects() {
     },
     {
       id: 6,
-      title: "Telsa Website",
+      title: "Tesla Website",
       description:
         "An interactive dashboard for financial data visualization, portfolio management, and investment tracking with real-time updates.",
-      image: "/images/projects/telsa.jpg",
+      image: "/images/projects/tesla.jpg",
       category: "web",
       tags: ["React", "Next.js", "TypeScript", "TailwindCSS", "ExpressJS"],
-      demoLink: "https://www.telsa.com",
+      demoLink: "https://www.tesla.com",
       githubLink: "#",
     },
   ]
