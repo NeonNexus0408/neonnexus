@@ -82,6 +82,17 @@ export default function Projects() {
       demoLink: "https://www.tesla.com",
       githubLink: "#",
     },
+    {
+      id: 7,
+      title: "RAE Engineering - Web3",
+      description:
+        "At RAE Engineering, our focus is on determining and managing the integrity of pressure equipment, pressure piping, tanks and related mechanical equipment. ",
+      image: "/images/projects/RAE.png",
+      category: "web3",
+      tags: ["Web3", "Next.js", "TypeScript", "TailwindCSS", "ExpressJS"],
+      demoLink: "https://raeengineering.ca",
+      githubLink: "#",
+    },
   ]
 
   const filteredProjects =
