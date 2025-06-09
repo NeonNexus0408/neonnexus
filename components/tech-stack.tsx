@@ -6,7 +6,7 @@ import Image from "next/image"
 interface TechItem {
   name: string
   icon: string
-  category: "frontend" | "backend" | "database" | "devops" | "other"
+  category: "frontend" | "backend" | "database" | "devops" | "other" | "AI" | "Web3"
 }
 
 const techStack: TechItem[] = [

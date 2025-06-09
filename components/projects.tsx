@@ -13,18 +13,20 @@ export default function Projects() {
     { id: "web", label: "Web Apps" },
     { id: "mobile", label: "Mobile" },
     { id: "backend", label: "Backend" },
+    { id: "AI", label: "AI" },
+    { id: "web3", label: "Web3" },
   ]
 
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Wear Plakkies",
       description:
-        "As a full-stack developer, I've meticulously crafted this premium WordPress WooCommerce website to deliver an exceptional shopping experience ",
-      image: "/images/projects/ecommerce.jpg",
+        "Development and Maintenance of e-commerce Website",
+      image: "/images/projects/wearplakkies.png",
       category: "web",
-      tags: ["Ecommerce", "Bootstrap", "WordPress", "JavaScript", "Next.js"],
-      demoLink: "https://wovenbyrd.com/?srsltid=AfmBOooK3lk69xv8v0lfLxqYpK2KCeTTJoAisP9FuhOZG94l0Hlft6_1",
+      tags: ["React", "Next.js", "Tailwind CSS", "Shopify"],
+      demoLink: "https://wearplakkies.com/",
       githubLink: "#",
     },
     {
@@ -32,21 +34,21 @@ export default function Projects() {
       title: "AI Voice Chatbot",
       description:
         "Implemented advanced algorithms for TTS and STT to achieve human-like voice quality and accuracy.",
-      image: "/images/projects/voice_chatbot.jpg",
-      category: "web",
+      image: "/images/projects/voice_chatbot.png",
+      category: "AI",
       tags: ["Speech Synthesis", "API Integration", "Artificial Intelligence", "Python", "Chatbot"],
-      demoLink: "https://callup.ai/",
+      demoLink: "https://smart.sista.ai",
       githubLink: "#",
     },
     {
       id: 3,
-      title: "AI Chatbot",
+      title: "Laxmi Hyundai - Chatbot",
       description:
-        "Chatbot integration for a website, it improves the interation with site",
-      image: "/images/projects/chatbot.jpg",
+        "Chatbot integration for a website, it improves the interaction with site visitors",
+      image: "/images/projects/chatbot.png",
       category: "web",
       tags: ["Chatbot", "OpenAI", "GPT-4o", "React"],
-      demoLink: "https://bestbeebrothers.com",
+      demoLink: "https://laxmihyundai.com/",
       githubLink: "#",
     },
     {
@@ -62,13 +64,13 @@ export default function Projects() {
     },
     {
       id: 5,
-      title: "Fitness Mobile App",
+      title: "FlirtBox",
       description:
-        "Corporate and charity initiatives are promoting physical and mental wellness, team engagement, and fundraising through enjoyable physical activities conducted over a brief challenge period.",
-      image: "/images/projects/fitness.jpg",
+        "Flirt Box is a matchmaking app that combines audio rooms and live streams, offering a unique platform for real-time audience interaction through live audio.",
+      image: "/images/projects/FlirtBox.jpg",
       category: "mobile",
       tags: ["Flutter", "React Native", "Dart", "Firebase", "PostgreSQL"],
-      demoLink: "https://play.google.com/store/apps/details?id=com.myfitnesspal.android&rdid=com.myfitnesspal.android",
+      demoLink: "https://apkpure.com/flirtbox/kg.megacom.flirtbox/download/1.0.35",
       githubLink: "#",
     },
     {
@@ -93,6 +95,62 @@ export default function Projects() {
       demoLink: "https://raeengineering.ca",
       githubLink: "#",
     },
+    {
+      id: 8,
+      title: "MCP for Memorization - Mem0.ai",
+      description:
+        "Mem0 remembers user preferences, adapts to individual needs, and continuously improves over time. ",
+      image: "/images/projects/Mem0.png",
+      category: "AI",
+      tags: ["LangFlow", "Next.js", "AWS", "Vercel"],
+      demoLink: "https://mem0.ai/",
+      githubLink: "#",
+    },
+      {
+        id: 9,
+        title: "Thealtmanbrothers - Real Estate",
+        description:
+          "The Altman Brothers is a real estate company that provides a wide range of services to their clients. ",
+        image: "/images/projects/thealtmanbrothers.png",
+        category: "web",
+        tags: ["React", "Next.js", "Tailwind CSS", "Hubspot"],
+        demoLink: "https://www.thealtmanbrothers.com/",
+        githubLink: "#",
+      },
+      {
+        id: 10,
+        title: "Shopify Store",
+        description:
+          "This is a popular template I use for my clients. I can recreate this store with your colors, font, images, branding, etc ",
+        image: "/images/projects/transport.png",
+        category: "web",
+        tags: ["React", "Next.js", "Tailwind CSS", "Shopify", "Shopify Theme"],
+        demoLink: "https://transport-store.myshopify.com/",
+        githubLink: "#",
+      },
+      {
+        id: 11,
+        title: "E-Commerce Platform",
+        description:
+          "As a full-stack developer, I've meticulously crafted this premium WordPress WooCommerce website to deliver an exceptional shopping experience ",
+        image: "/images/projects/ecommerce.jpg",
+        category: "web",
+        tags: ["Ecommerce", "Bootstrap", "WordPress", "JavaScript", "Next.js"],
+        demoLink: "https://wovenbyrd.com/?srsltid=AfmBOooK3lk69xv8v0lfLxqYpK2KCeTTJoAisP9FuhOZG94l0Hlft6_1",
+        githubLink: "#",
+      },
+      {
+        id: 12,
+        title: "Real-Time Stock Market Analysis and Prediction System",
+        description:
+          "This project is a sophisticated real-time stock market analysis and prediction system that leverages AI agents",
+        image: "/images/projects/ml.jpg",
+        category: "web",
+        tags: ["OpenAPI", "Python", "AI Agent Development", "LLaMA", "RAG"],
+        demoLink: "https://www.thealtmanbrothers.com/",
+        githubLink: "#",
+      },
+      
   ]
 
   const filteredProjects =

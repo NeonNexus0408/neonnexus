@@ -13,7 +13,7 @@ export default function Hero() {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ["Full Stack Developer", "Frontend Specialist", "Backend Engineer", "DevOps Expert", "UI/UX Enthusiast"],
+      strings: ["Full Stack Developer", "Frontend Specialist", "Backend Engineer", "AI Agent Developer", "DevOps Expert", "UI/UX Enthusiast", "Web3 Developer"],
       typeSpeed: 50,
       backSpeed: 30,
       backDelay: 1500,

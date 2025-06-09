@@ -24,6 +24,13 @@ export default function About() {
     "DevOps and cloud infrastructure knowledge",
     "Team leadership and mentoring experience",
     "Agile development methodology advocate",
+    "AI Agent Development",
+    "Web3 Development",
+    "UI/UX Design",
+    "DevOps and Cloud Infrastructure",
+    "Team Leadership and Mentoring",
+    "Agile Development Methodology Advocate",
+    "AI Agent Development",
   ]
 
   return (
@@ -57,7 +64,7 @@ export default function About() {
               viewport={{ once: true }}
               className="text-2xl font-bold font-heading"
             >
-              Senior Full Stack Developer
+              Senior AI & Full Stack Developer
             </motion.h3>
 
             <motion.p
@@ -68,9 +75,9 @@ export default function About() {
               viewport={{ once: true }}
               className="text-gray-400"
             >
-              I am a passionate full stack developer with over a decade of experience building robust, scalable, and
+              I am a passionate AI & Full stack developer with over a decade of experience building robust, scalable, and
               user-friendly applications. My journey in software development has equipped me with a diverse skill set
-              spanning frontend, backend, DevOps, and architecture design.
+              spanning frontend, backend, DevOps, AI Agent Development, and architecture design.
             </motion.p>
 
             <motion.p

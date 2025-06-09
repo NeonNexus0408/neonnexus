@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Code2, Database, Server, Globe, Layers, Cpu, Cloud, GitBranch, Terminal, Smartphone } from "lucide-react"
+import { Code2, Database, Server, Globe, Layers, Cpu, Cloud, GitBranch, Terminal, Smartphone, Brain, Package, Zap, TestTube, Shield, Palette, Repeat, Bot, MessageCircle, Phone, Star, TrendingUp, Users, Briefcase, Settings, PenTool } from "lucide-react"
 
 export default function Skills() {
   const skillCategories = [
@@ -10,11 +10,15 @@ export default function Skills() {
       icon: <Code2 className="h-6 w-6" />,
       skills: [
         { name: "React", level: 95 },
-        { name: "Vue.js", level: 90 },
-        { name: "Angular", level: 85 },
-        { name: "Next.js", level: 95 },
-        { name: "TypeScript", level: 90 },
+        { name: "Next.js", level: 90 },
+        { name: "Vue.js", level: 85 },
+        { name: "Nuxt.js", level: 95 },
+        { name: "Svelte", level: 90 },
         { name: "Tailwind CSS", level: 95 },
+        { name: "MaterialUI", level: 90 },
+        { name: "shadcn/ui", level: 95 },
+        { name: "Ember.js", level: 95 },
+        { name: "Bootstrap", level: 90 },
       ],
     },
     {
@@ -23,10 +27,11 @@ export default function Skills() {
       skills: [
         { name: "Node.js", level: 95 },
         { name: "Python", level: 85 },
-        { name: "Java", level: 80 },
-        { name: "C#/.NET", level: 85 },
-        { name: "GraphQL", level: 90 },
-        { name: "REST API", level: 95 },
+        { name: "Express.js", level: 80 },
+        { name: "Django", level: 85 },
+        { name: "FastAPI", level: 90 },
+        { name: "Flask", level: 95 },
+        { name: "Ruby on Rails", level: 90 },
       ],
     },
     {
@@ -42,6 +47,21 @@ export default function Skills() {
       ],
     },
     {
+      title: "AI",
+      icon: <Brain className="h-6 w-6" />,
+      skills: [
+        { name: "Machine Learning", level: 90 },
+        { name: "AI Chatbot", level: 85 },
+        { name: "Multi-Agent", level: 90 },
+        { name: "MCP", level: 95 },
+        { name: "Computer Vision", level: 80 },
+        { name: "LLM", level: 85 },
+        { name: "RAG", level: 90 },
+        { name: "NLP", level: 85 },
+        { name: "OpenAI", level: 90 },
+      ],
+    },
+    {
       title: "DevOps",
       icon: <Cloud className="h-6 w-6" />,
       skills: [
@@ -51,6 +71,8 @@ export default function Skills() {
         { name: "CI/CD", level: 95 },
         { name: "Terraform", level: 80 },
         { name: "Monitoring", level: 85 },
+        { name: "GCP", level: 90 },
+        { name: "Azure", level: 85 },
       ],
     },
   ]
@@ -156,19 +178,26 @@ export default function Skills() {
           <div className="flex flex-wrap gap-3">
             {[
               { name: "Git", icon: <GitBranch className="h-4 w-4" /> },
-              { name: "Webpack", icon: <Layers className="h-4 w-4" /> },
-              { name: "Vite", icon: <Terminal className="h-4 w-4" /> },
-              { name: "Jest", icon: <Terminal className="h-4 w-4" /> },
-              { name: "Cypress", icon: <Terminal className="h-4 w-4" /> },
+              { name: "Webpack", icon: <Package className="h-4 w-4" /> },
+              { name: "Vite", icon: <Zap className="h-4 w-4" /> },
+              { name: "Jest", icon: <TestTube className="h-4 w-4" /> },
+              { name: "Cypress", icon: <Shield className="h-4 w-4" /> },
               { name: "Redux", icon: <Layers className="h-4 w-4" /> },
-              { name: "Sass", icon: <Code2 className="h-4 w-4" /> },
+              { name: "Sass", icon: <Palette className="h-4 w-4" /> },
               { name: "WebSockets", icon: <Globe className="h-4 w-4" /> },
               { name: "Microservices", icon: <Cpu className="h-4 w-4" /> },
               { name: "PWA", icon: <Smartphone className="h-4 w-4" /> },
-              { name: "Figma", icon: <Code2 className="h-4 w-4" /> },
-              { name: "Agile", icon: <GitBranch className="h-4 w-4" /> },
-              { name: "AI Integration", icon: <GitBranch className="h-4 w-4" /> },
-              { name: "Chatbot", icon: <GitBranch className="h-4 w-4" /> },
+              { name: "Figma", icon: <PenTool className="h-4 w-4" /> },
+              { name: "Agile", icon: <Repeat className="h-4 w-4" /> },
+              { name: "AI Integration", icon: <Brain className="h-4 w-4" /> },
+              { name: "Chatbot", icon: <MessageCircle className="h-4 w-4" /> },
+              { name: "VoIP", icon: <Phone className="h-4 w-4" /> },
+              { name: "Asterisk", icon: <Star className="h-4 w-4" /> },
+              { name: "Twilio", icon: <Phone className="h-4 w-4" /> },
+              { name: "Telnyx", icon: <Phone className="h-4 w-4" /> },
+              { name: "GoHighLevel", icon: <TrendingUp className="h-4 w-4" /> },
+              { name: "HubSpot", icon: <Users className="h-4 w-4" /> },
+              { name: "Jobber", icon: <Briefcase className="h-4 w-4" /> },
             ].map((tech, index) => (
               <motion.div
                 key={tech.name}
